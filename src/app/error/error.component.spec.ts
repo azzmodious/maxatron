@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ErrorComponent } from './error.component';
+import { RouterModule, Routes } from '@angular/router';
 
 describe('ErrorComponent', () => {
   let component: ErrorComponent;
