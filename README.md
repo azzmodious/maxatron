@@ -35,3 +35,6 @@ https://prmadi.com/running-angular2-app-on-azure-app-services-with-ci-cd/
 Deployment script info 
 https://prmadi.com/azure-custom-deployment/
 
+Routing issue fix (web.config)
+/stackoverflow.com/questions/42786139/host-angular2-app-with-routing-in-azure
+
