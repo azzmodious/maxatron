@@ -1,0 +1,7 @@
+before_deploy: "echo 'Starting deployment'"
+deploy: 
+  provider: azure_web_apps
+  verbose: true
+  username: azure_user
+  password: azure_password
+  site: "maxatron"
