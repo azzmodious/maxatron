@@ -1,8 +1,6 @@
-recipients:
-      - max@ge.com
-      - quentin.randolph@ge.com
-    on_success: always # default: change
-    on_failure: always # default: always
+notifications:
+  email:
+    - max@ge.com
 
 sudo: required
 dist: trusty
