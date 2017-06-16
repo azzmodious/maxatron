@@ -23,7 +23,7 @@ before_script:
 - npm install
 - ./node_modules/.bin/ng build --prod
 
-script: karma start config/karma.conf.js --single-run
+script: karma start karma.conf.js --single-run
 
 before_deploy: "echo 'Starting deployment'"
 deploy: 
