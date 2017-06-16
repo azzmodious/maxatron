@@ -31,7 +31,6 @@ before_script:
 
 script: karma start karma.conf.js --single-run
 
-before_deploy: "echo 'Starting deployment'"
 deploy: 
   provider: azure_web_apps
   verbose: true
