@@ -1,3 +1,7 @@
+notifications:
+  email:
+    - max@ge.com
+
 sudo: required
 dist: trusty
 language: node_js
