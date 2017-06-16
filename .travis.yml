@@ -1,6 +1,8 @@
-notifications:
-  email:
-    - max@ge.com
+recipients:
+      - max@ge.com
+      - quentin.randolph@ge.com
+    on_success: always # default: change
+    on_failure: always # default: always
 
 sudo: required
 dist: trusty
@@ -33,6 +35,3 @@ before_deploy: "echo 'Starting deployment'"
 deploy: 
   provider: azure_web_apps
   verbose: true
-  username: azure_user
-  password: azure_password
-  site: "maxatron"
