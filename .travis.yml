@@ -31,7 +31,4 @@ script: karma start karma.conf.js --single-run
 
 deploy: 
   provider: azure_web_apps
-  username: 'azzmodious'
-  password: 'Ironman09#Max'
-  site: 'maxatron'
   verbose: true
