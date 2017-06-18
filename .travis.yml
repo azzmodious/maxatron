@@ -32,4 +32,5 @@ script: karma start karma.conf.js --single-run
 deploy: 
   provider: azure_web_apps
   username: azzmodious
+  site: maxatron
   verbose: true
